@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tahoma";
+    font-size: 16px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+h1, p{
+    margin: 1em auto;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+}
+
+.form-group{
+    border: none;
+    padding: 1rem 0;
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input, textarea, select{
+    border: none;
+    background-color: white;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.unset{
+    text-align: unset;
+}
+
+button{
+    display: block;
+    min-width: 300px;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+    border: none;
+}
+
