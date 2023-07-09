@@ -9,8 +9,9 @@ import { ShoppingCart, App, CampSite, StatefulComponent } from './props'
 import { MyComponent1, MyComponent2, Counter, ControlledInput, MyForm } from './setState'
 import { MyApp, MyApp1 } from './PassStateasProps'
 import { Controller, MyComponent3, MyComponent4, MyComponent5 } from './LifeCycle';
-import Colorful from './AddStyle';
-
+import { Colorful, MagicEightBall } from './AddStyle';
+import { CheckUserAge, GameOfChance, GateKeeper, MyComponent6 } from './If-else';
+import { MyComponent7, MyToDoList } from './Array_function';
 
 const root = ReactDOM.createRoot(document.getElementById('root','challenge-node'));
 root.render(
@@ -51,6 +52,20 @@ root.render(
     <Controller />
     <hr />
     <Colorful />
+    <hr />
+    <MagicEightBall />
+    <hr />
+    <MyComponent6 />
+    <hr />
+    <CheckUserAge />
+    <hr />
+    <GameOfChance />
+    <hr />
+    <GateKeeper />
+    <hr />
+    <MyToDoList />
+    <hr />
+    <MyComponent7 />
 </StrictMode>
 
 );
