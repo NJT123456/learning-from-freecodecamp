@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -6,6 +7,10 @@ import { MyComponent, Component, ParentComponent, ToDo } from './App';
 import reportWebVitals from './reportWebVitals';
 import { ShoppingCart, App, CampSite, StatefulComponent } from './props'
 import { MyComponent1, MyComponent2, Counter, ControlledInput, MyForm } from './setState'
+import { MyApp, MyApp1 } from './PassStateasProps'
+import { Controller, MyComponent3, MyComponent4, MyComponent5 } from './LifeCycle';
+import Colorful from './AddStyle';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root','challenge-node'));
 root.render(
@@ -32,6 +37,20 @@ root.render(
     <ControlledInput />
     <hr />
     <MyForm />
+    <hr />
+    <MyApp />
+    <hr />
+    <MyApp1 />
+    <hr />
+    <MyComponent3 />
+    <hr />
+    <MyComponent4 />
+    <hr />
+    <MyComponent5 />
+    <hr />
+    <Controller />
+    <hr />
+    <Colorful />
 </StrictMode>
 
 );
