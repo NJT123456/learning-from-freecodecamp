@@ -1,0 +1,1 @@
+This is random quote machine for FreeCodeCamp.com
